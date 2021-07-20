@@ -1,0 +1,76 @@
+html{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    object-fit: cover;
+}
+
+body {
+	margin : 0;
+	padding : 0;
+	background : url (img.jpg) center center fixed no-repeat;
+}
+/*
+video {
+	position : fixed;
+	top : 0; 
+	left : 0;
+	width : 100%;
+	height : 100%;
+	z-index : -1;
+}*/
+
+/*--요소 정렬을 위한 콘테이너---------------------------*/
+
+.centerContainer{
+    position : fixed;
+	top : 0; 
+	left : 0;
+	width : 100%;
+    height: 100%;
+    background-color:antiquewhite;
+    opacity: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/*--비디오 클래스--------------------------------------*/
+
+.video{
+	width : 100%;
+    height: 100%;
+	z-index : -1;
+}
+
+/*--아래부터 화면 등장요소 (과자) -----------------------*/
+.item{
+    position: absolute;
+    height: 33%;
+    width: 33%;
+    /*background-color: firebrick;*/
+    object-fit: contain;
+    justify-content: center;
+    align-items: center;
+    text-align: center; 
+}
+
+
+#snack{
+    left: 0px;
+    position: relative;
+    height: 100%;
+    transition: .3s;
+    transform: rotate(0deg);
+
+}
+
+#snack:hover{
+    left: -10%;
+    transform: rotate(10deg);
+    height: 120%;
+}
