@@ -6,7 +6,7 @@ body{
     align-items:center;
     height: 100vh;
     width: 100%;
-    background-image: url(source/img/home_back.jpg);
+    /*background-image: url(source/img/home_back.jpg);*/
 }
 
 #header{
@@ -91,14 +91,14 @@ body{
 }
 .Bt1{
     transition: .1s ease-in;
-    background-image: url(pororo/source/img/title_1.jpg);
+    background-image: url(img/title_1.jpg);
     background-size: cover;
     background-position: center;
 }
 
 .Bt2{
     transition: .1s ease-in;
-    background-image: url(pororo/source/img/title_2.jpg);
+    background-image: url(img/title_2.jpg);
     background-size: cover;
     background-position: center;
 }
