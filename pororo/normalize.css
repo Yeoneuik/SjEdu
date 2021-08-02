@@ -43,7 +43,7 @@ table {
 	border-spacing: 0;
 }
 
-/*--아래는 화면 돌리라는 안내를 주는 코드-------------------------*/
+/*--아래는 화면 돌리라는 안내를 주는 코드+안내만 두고 나머지는 숨기기-------------------------*/
 @media (orientation: landscape) {
     .turnPrompt {
         display: none;
