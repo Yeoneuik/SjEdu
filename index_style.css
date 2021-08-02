@@ -85,3 +85,10 @@ body{
     width: auto;
     color: darkgreen;
 }
+
+.Bt2{
+    transition: .1s ease-in;
+    background-image: url(pororo/source/img/title_xs.png);
+    background-size: cover;
+    background-position: center;
+}
