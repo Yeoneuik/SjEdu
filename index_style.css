@@ -87,9 +87,16 @@ body{
     color: darkgreen;
 }
 
+.Bt1{
+    transition: .1s ease-in;
+    background-image: url(pororo/source/img/title_1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
 .Bt2{
     transition: .1s ease-in;
-    background-image: url(pororo/source/img/title_xs.png);
+    background-image: url(pororo/source/img/title_2.jpg);
     background-size: cover;
     background-position: center;
 }
