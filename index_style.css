@@ -54,7 +54,7 @@ body{
     display: flex;
     align-items:center;
     justify-content: center;
-    background-color: aquamarine;
+    background-color: #E5E5E5;
     width: 330px;
     height: 230px;
     margin: 10px;
@@ -62,6 +62,7 @@ body{
     border-radius: 20px;
     filter: drop-shadow(0 7px 0 #3E6666);
     border: 5px solid white;
+    box-shadow: inset .05px .05px 20px #CCCCCC;
     
 }
 
@@ -73,13 +74,15 @@ body{
 }
 
 #unready{
-    filter: sepia(50%);
+    filter:  sepia(50%) drop-shadow(0 7px 0 #3E6666);
+    
 }
 
 #unready:hover{
     cursor: not-allowed;
     height: 230px;
     margin: 10px;
+    box-shadow: inset 1px 1px 100px #999999;
 }
 
 #copyright{
