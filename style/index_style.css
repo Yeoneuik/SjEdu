@@ -6,11 +6,12 @@ body{
     align-items:center;
     height: 100vh;
     width: 100%;
+    background-color: #F1dF81;
     /*background-image: url(source/img/home_back.jpg);*/
 }
 
 #header{
-    background-color: cadetblue;
+    /*background-color: cadetblue;*/
     width: inherit;
     height: 25vh;
     font-size: 20pt;
@@ -20,21 +21,21 @@ body{
 }
 
 #middle{
-    background-color: cadetblue;
+    /*background-color: cadetblue;*/
     display: flex;
     min-height: 60vh;
 
 }
 
 .gap{
-    background-color: cadetblue;
+    /*background-color: cadetblue;*/
     width: 10vw;
 }
 
 #centerContainer{
     justify-content: center;
     align-items:center;
-    background-color: cadetblue;
+    /*background-color: cadetblue;*/
     width: 80vw;
     display: flex;
     flex-direction: row;
@@ -42,7 +43,7 @@ body{
 }
 
 #footer{
-    background-color: cadetblue;
+    /*background-color: cadetblue;*/
     height:15vh;
     width: inherit;
     display: flex;
@@ -89,12 +90,24 @@ body{
     width: auto;
     color: darkgreen;
 }
-/*.Bt1{
+.Bt1{
     transition: .1s ease-in;
-    background-image: url(img/title_1.jpg);
+    background-image: url(img/titleplaceholder.jpeg);
     background-size: cover;
     background-position: center;
-}*/
+}
+
+.Bt2{
+    transition: .1s ease-in;
+    background-image: url(img/titleplaceholder.jpeg);
+    background-size: cover;
+    background-position: center;
+    filter: hue-rotate(180deg);
+}
+
+.Bt2:hover{
+    filter: hue-rotate(180deg);
+}
 
 .Bt3{
     transition: .1s ease-in;
