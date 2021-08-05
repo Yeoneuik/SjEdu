@@ -1,6 +1,6 @@
 const contents = [
-    '../v1-p-01.html',
-    '../v1-p-02.html',
+    'v1/v1-p-01.html',
+    'v1/v1-p-02.html',
 ]
 
 var nowPlaying = 0;
@@ -27,6 +27,12 @@ function prevContent() {
 //오른쪽 왼쪽 클릭시 iframe 내부 콘텐츠 바뀜
     document.getElementById("b_back").onclick = prevContent;
     document.getElementById("b_forward").onclick = nextContent;
+
+
+
+//아래는 시스템 이외의것들//
+
+
 
 //ie 금지코드 시작
     var agent = navigator.userAgent.toLowerCase();
