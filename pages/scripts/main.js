@@ -1,6 +1,7 @@
 const contents = [
     'v1/v1-p-01.html',
     'v1/v1-p-02.html',
+    
 ]
 
 var nowPlaying = 0;

@@ -71,6 +71,7 @@ body{
 
 .button:hover{
     background-color: yellow;
+    cursor:pointer;
 }
 
 #b_home{

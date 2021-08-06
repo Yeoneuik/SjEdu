@@ -85,10 +85,24 @@ body {
     align-items: center;
     text-align: center;
     transition: .3s;
-    width: 140%;
+    width: 120%;
 }
 
 #snack:hover{
 
     filter: drop-shadow(-1pt -10pt 10pt #faffd3) drop-shadow(1pt 10pt 40pt yellow);
+    
+}
+
+#nextButton{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    transition: .3s;
+    width: 120%;
+}
+
+#nextButton:hover{
+    filter: drop-shadow(-1pt -10pt 10pt #faffd3) drop-shadow(1pt 10pt 40pt yellow);
+    cursor:pointer;
 }

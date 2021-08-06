@@ -68,7 +68,7 @@ body{
     margin: 10px;
     outline-color: white;
     border-radius: 20px;
-    filter: drop-shadow(0 7px 0 #3E6666);
+    filter: drop-shadow(0 7px 0 #d0694d);
     border: 5px solid sandybrown;
     box-shadow: inset .05px .05px 20px rgba(85, 95, 118, .5);
     
@@ -78,11 +78,11 @@ body{
     transition: .1s ease-in;
     height: 240px;
     margin: 0 10px;
-    filter: drop-shadow(0 0px 20px #FFE576) drop-shadow(0 7px 0 #FFE576) ;
+    filter: drop-shadow(0 0px 30px #FFE576) drop-shadow(0 7px 0 #FFE576) ;
 }
 
 #unready{
-    filter:  sepia(50%) drop-shadow(0 7px 0 #3E6666);
+    filter:  sepia(50%) drop-shadow(0 7px 0 #d0694d);
     
     background-image: url(img/notReady-simple.jpg);
     background-size: cover;
