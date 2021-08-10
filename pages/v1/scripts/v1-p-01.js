@@ -1,3 +1,5 @@
+GetComponent("../../script/main.js").nextContent();
+
 window.onload = function () {
     var video = document.getElementById("vid");
     var snack = document.getElementById("snack");
@@ -10,6 +12,10 @@ window.onload = function () {
         nextButton.style.display = "block";
         nextButton.onclick = parent.nextContent;
     }
+    
+    setTimeout(function(){
+        nextContent;
+    },2000)
 
     video.oncanplaythrough = function() {
         document.getElementById("loading").style.display = "none";
