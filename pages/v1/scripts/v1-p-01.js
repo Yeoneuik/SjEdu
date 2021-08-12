@@ -1,4 +1,4 @@
-GetComponent("../../script/main.js").nextContent();
+//GetComponent("../../script/main.js").nextContent();
 
 window.onload = function () {
     var video = document.getElementById("vid");
@@ -13,9 +13,9 @@ window.onload = function () {
         nextButton.onclick = parent.nextContent;
     }
     
-    setTimeout(function(){
-        nextContent;
-    },2000)
+    //setTimeout(function(){
+    //    nextContent;
+    //},2000)
 
     video.oncanplaythrough = function() {
         document.getElementById("loading").style.display = "none";

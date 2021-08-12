@@ -6,7 +6,7 @@ window.onload = function () {
 
     video.onended = function() {
         snack.style.display = "block";
-        snack.onclick = parent.nextContent;
+        //snack.onclick = parent.nextContent;
         button.play();
         
     }

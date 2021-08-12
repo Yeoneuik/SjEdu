@@ -1,7 +1,11 @@
 const contents = [
     'v1/v1-p-01.html',
     'v1/v1-p-02.html',
-    
+    //'v1/v1-p-02-game.html',
+    'v1/v1-p-03.html',
+    'v1/v1-p-04.html',
+    'v1/v1-p-05.html',
+    'v1/v1-p-06.html',
 ]
 
 var nowPlaying = 0;
