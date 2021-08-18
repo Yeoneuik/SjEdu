@@ -7,7 +7,7 @@ window.onload = function () {
     video.onended = function() {
         snack.style.display = "block";
         snack.onclick = parent.startGame;
-        button.onended = parent.nextContent;
+        button.oncomplete = parent.nextContent;
         button.play();
     }
 
@@ -18,6 +18,5 @@ window.onload = function () {
     video.onplaying = function() {
         document.getElementById("loading").style.display = "none";
     }
-       
 }
 
