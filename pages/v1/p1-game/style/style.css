@@ -32,7 +32,7 @@ body {
 /*--이미지 클래스--------------------------------------*/
 
 #bg {
-    background-image: url('../sources/img/bam-background.jpg');
+    background-image: url('../assets/img/bam-background.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -66,7 +66,7 @@ body {
     width: 45vw;
     height: 16vw;
 
-    background-image: url('../sources/img/bam-answer.png');
+    background-image: url('../assets/img/bam-answer.png');
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
