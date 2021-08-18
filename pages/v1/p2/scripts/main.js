@@ -6,9 +6,9 @@ window.onload = function () {
 
     video.onended = function() {
         snack.style.display = "block";
-        //snack.onclick = parent.nextContent;
+        snack.onclick = parent.startGame;
+        button.onended = parent.nextContent;
         button.play();
-        
     }
 
     video.oncanplaythrough = function() {
