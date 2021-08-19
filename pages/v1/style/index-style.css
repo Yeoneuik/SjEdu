@@ -1,0 +1,149 @@
+/*--작성코드 시작-----------------------------*/
+body{
+    display:block;
+    text-align: center;
+    justify-content: center;
+    align-items:center;
+    height: 100vh;
+    width: 100%;
+    background-color: #F1dF81;
+    background-image: url(../../../style/img/background.jpg);
+}
+
+#header{
+    /*background-color: cadetblue;*/
+    width: inherit;
+    height: 25vh;
+    font-size: 20pt;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#title-illust{
+    width: 60vw;
+    max-width: 700px;
+    margin-top: 9vh;
+    margin-bottom: 1vh
+}
+
+#middle{
+    /*background-color: cadetblue;*/
+    display: flex;
+    min-height: 60vh;
+
+}
+
+.gap{
+    /*background-color: cadetblue;*/
+    width: 10vw;
+}
+
+#centerContainer{
+    justify-content: center;
+    align-items:center;
+    /*background-color: cadetblue;*/
+    width: 80vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#button_home{
+    z-index: 2;
+    position: absolute;
+    left: 10vw;
+    top: 10vh;
+    background-color: darkred;
+    display: inherit;
+    float: left;
+    width: 46px;
+    height: 46px;
+    border: 5px solid white;
+    border-radius: 5px;
+    filter: drop-shadow(0 5px 0 lightslategray);
+}
+
+#button_home:hover{
+    background-color: orangered;
+    cursor:pointer;
+}
+
+i{
+    font-size: 26px;
+    color:white;
+    margin:11px 9px;
+}
+
+#footer{
+    /*background-color: cadetblue;*/
+    height:15vh;
+    width: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contentButton{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    background-color: #E5E5E5;
+    width: 430px;
+    height: 230px;
+    margin: 10px;
+    outline-color: white;
+    border-radius: 20px;
+    filter: drop-shadow(0 7px 0 #d0694d);
+    border: 5px solid sandybrown;
+    box-shadow: inset .05px .05px 20px rgba(85, 95, 118, .5);
+    
+}
+
+.contentButton:hover{
+    transition: .1s ease-in;
+    height: 240px;
+    margin: 0 10px;
+    filter: drop-shadow(0 0px 30px #FFE576) drop-shadow(0 7px 0 #FFE576) ;
+}
+
+#unready{
+    filter: sepia(50%) drop-shadow(0 7px 0 #d0694d);
+    
+    background-image: url(img/notReady-simple.jpg);
+    background-size: cover;
+    background-position: center;
+    
+}
+
+#unready:hover{
+    cursor: not-allowed;
+    height: 230px;
+    margin: 10px;
+    box-shadow: inset 1px 1px 100px #999999;
+}
+
+#copyright{
+    width: auto;
+    color: darkgreen;
+}
+.Bt1{
+    transition: .1s ease-in;
+    background-image: url(img/title_3.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.Bt2{
+    transition: .1s ease-in;
+    background-image: url(img/title_2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.Bt3{
+    transition: .1s ease-in;
+    background-image: url(img/title_1.jpg);
+    background-size: cover;
+    background-position: center;
+}
