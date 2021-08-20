@@ -8,7 +8,9 @@ const contents = [
     },
     {
         src: 'p2/index.html',
-        game: []
+        game: [
+            'p2-game/index.html'
+        ]
     }
 ]
 
@@ -45,6 +47,7 @@ function startGame() {
 // Public Function
 // Move to next video contents
 function nextContent() {
+    nowGaming = null;
     nowPlaying++;
     if (nowPlaying >= contents.length) {
         location.href = "index.html";
@@ -66,6 +69,12 @@ function prevContent() {
 // 아래는 시스템 이외의것들
 window.onload = function () {
     var elem = document.getElementById("videoContainer");
+
+    var p = new URL(location.href);
+    var pp = p.searchParams;
+    if(pp.has('dev')) {
+        setIframe(pp.get('dev') + '/index.html');
+    }
 
     // 풀스크린 코드
     document.getElementById("b_fullscreen").onclick = function() {
