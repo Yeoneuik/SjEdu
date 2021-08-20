@@ -9,7 +9,8 @@ const contents = [
     {
         src: 'p2/index.html',
         game: [
-            'p2-game/index.html'
+            'p2-game/index.html',
+            'p2-game2/index.html'
         ]
     }
 ]
