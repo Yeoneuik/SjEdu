@@ -56,4 +56,13 @@ window.onload = function () {
             }, obj.delay);
         }
     }
+
+    var title = document.getElementById('title');
+    var titleAnim = lottie.loadAnimation({
+        container: title,
+        renderer: 'svg',
+        loop: false,
+        autoplay: true,
+        path: 'assets/title/data.json'
+    })
 }

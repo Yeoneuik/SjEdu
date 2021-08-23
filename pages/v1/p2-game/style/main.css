@@ -48,29 +48,11 @@ body {
     position: absolute;
 }
 
-.lottie {
-    height: 50%;
-    overflow: hidden;
-}
-
-#ja {
-    top: 15%;
-    left: 10%;
-}
-
-#kk {
-    top: 30%;
-    left: 30%;
-}
-
-#ji {
-    top: 15%;
+#instContainer {
+    width: calc(80% + 90px);
     left: 50%;
-}
-
-#yo {
-    top: 30%;
-    left: 70%;
+    transform: translate(-50%, 0);
+    bottom: 10%;
 }
 
 #license{
@@ -83,4 +65,10 @@ body {
 
 #license > a {
     color: black;
+}
+
+#title {
+    width: 80%;
+    left: 10%;
+    top: 13%;
 }
