@@ -41,6 +41,7 @@ window.onload = function () {
         });
 
         obj.sound = new Audio('assets/' + id + '/sound.wav');
+        obj.anim.setSpeed(1.5);
 
         obj.obj.onclick = function () {
             obj.sound.pause();
@@ -53,7 +54,7 @@ window.onload = function () {
             obj.timeout = setTimeout(() => {
                 obj.sound.play();
                 obj.timeout = null;
-            }, obj.delay);
+            }, obj.delay / 1.5);
         }
     }
 
