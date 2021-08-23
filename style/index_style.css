@@ -108,22 +108,21 @@ body{
     background-position: center;
 }
 
-/*.Bt2{
+.Bt2{
     transition: .1s ease-in;
-    background-image: url(img/titleplaceholder.jpeg);
+    background-image: url(img/title_4.jpg);
     background-size: cover;
     background-position: center;
+}
 
-}*/
-
-.Bt2{
+.Bt3{
     transition: .1s ease-in;
     background-image: url(img/title_2.jpg);
     background-size: cover;
     background-position: center;
 }
 
-.Bt3{
+.Bt4{
     transition: .1s ease-in;
     background-image: url(img/title_1.jpg);
     background-size: cover;
