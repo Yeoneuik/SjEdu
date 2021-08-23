@@ -52,7 +52,8 @@ body {
     width: calc(80% + 90px);
     left: 50%;
     transform: translate(-50%, 0);
-    bottom: 10%;
+    bottom: 12%;
+    height: 60%;
 }
 
 #license{
